@@ -1,0 +1,94 @@
+.about__banner {
+    max-width: 1240px;
+    height: 223px;
+    margin-top: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: url("../assets/banner_about_mobile.png");
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    filter: brightness(0.7);
+    @media (min-width: $phoneScreenSize) {
+        background: url("../assets/banner_about.png");
+        border-radius: 25px;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 148px;
+    @media (min-width: $phoneScreenSize) {
+        margin-top: 31px;
+        margin-bottom: 170px;
+    }
+    &__collapse {
+        margin: auto;        
+        width: 100%;        
+        max-width: 1023px;
+        &__title {
+            height: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: $colour-primary;
+            color: $colour-secondary;
+            font-size: 13px;
+            padding: 10px 15px 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            @media (min-width: $phoneScreenSize) {
+                height: 17px;
+                font-size: 24px;
+                padding: 15px 20px 15px 20px;
+            }
+        }
+        &__text {            
+            font-size: 12px;
+            font-weight: 400;
+            color: $colour-primary;
+            background-color: $colour-tertiary;
+            border-radius: 5px;
+            padding: 17px 10px 30px 10px;
+            margin-bottom: 20px;
+            transition: all .5s ease-in;
+            @media (min-width: $phoneScreenSize) {
+                font-size: 24px;
+                padding: 40px 30px 40px 30px;
+            }
+        }
+    }
+}
+
+.active {
+    & .about__collapse__text{
+        visibility: visible;
+        opacity: 1;
+    }
+    
+    & i {
+        transition: .5s;
+    }
+}
+
+.false {
+    height: 50px;
+    @media (min-width: $phoneScreenSize) {
+        height: 78px;
+    }
+    & .about__collapse__text{
+        visibility: hidden;
+        opacity: 0;        
+    }
+    
+    & i {
+        transform:rotate(180deg);
+        transition: 0.5s;
+    }
+}

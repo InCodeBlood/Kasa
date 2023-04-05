@@ -1,0 +1,146 @@
+.housing {
+    margin-top: 15px;
+    margin-bottom: 50px;
+    @media (min-width: $phoneScreenSize) {
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    &__info {
+        @media (min-width: $phoneScreenSize) {
+            display: flex; 
+            justify-content: space-between;;
+        }
+        &__main {
+            color: $colour-primary;            
+            &__title {
+                font-size: 18px;    
+                margin-bottom: 15px;    
+                @media (min-width: $phoneScreenSize) {
+                    font-size: 36px;   
+                    max-width: 80%;
+                }        
+            }
+            &__location {
+                font-size: 14px;
+                @media (min-width: $phoneScreenSize) {
+                    font-size: 18px;   
+                }
+            }
+            &__tags {
+                color: $colour-secondary;
+                display: flex;
+                gap: 10px;
+                margin: 10px 0;
+                align-items: center;
+                @media (min-width: $phoneScreenSize) {
+                    margin: 20px 0; 
+                }
+                & li {
+                    width: 84px;
+                    text-align: center;
+                    font-size: 10px;
+                    padding: 0.4rem 0;
+                    background-color: $colour-primary;
+                    border-radius: 10px;
+                    @media (min-width: $phoneScreenSize) {
+                        width: 115px; 
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+        &__host {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            align-items: center;
+            @media (min-width: $phoneScreenSize) {
+                flex-direction: column;
+                justify-content: flex-start;
+                gap: 24px;
+            }
+            &__profil {
+                display: flex;
+                align-items: center;
+                &__name {
+                    font-size: 12px;
+                    width: 93px;
+                    text-align: end;
+                    margin-right: 10.5px;
+                    color: $colour-primary;
+                    @media (min-width: $phoneScreenSize) {
+                        font-size: 18px;   
+                    }
+                }
+                &__picture {
+                    width: 32px;
+                    height: 32px;
+                    border-radius: 50%;
+                    @media (min-width: $phoneScreenSize) {
+                        width: 64px;
+                        height: 64px;     
+                    }
+                }
+            }
+            &__rating {
+                & img {
+                    width: 15px;
+                    height: 15px;
+                    @media (min-width: $phoneScreenSize) {
+                        width: 30px;
+                        height: 30px;     
+                    }
+                }
+            }
+        }
+    }
+    &__datas {
+        width: 100%;
+        max-width: 1240px;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        @media (min-width: $phoneScreenSize) {
+            flex-direction: initial;
+            justify-content: center;
+            gap: 10%;
+        }
+        & div {
+            @media (min-width: $phoneScreenSize) {
+                width: 48%;
+                max-width: 582px;
+            }
+            & .about__collapse__title {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color: $colour-primary;
+                color: $colour-secondary;
+                border-radius: 5px;
+                padding: 0.5rem;
+                font-size: 13px;
+                width: 100%;
+                cursor: pointer;
+                @media (min-width: $phoneScreenSize) {
+                    padding: 0.5rem 10px;
+                    font-size: 18px;
+                    border-radius: 10px;
+                }
+            }
+            & .about__collapse__text {
+                background-color: $colour-tertiary;
+                color: $colour-primary;
+                border-radius: 5px;
+                padding: 1.5rem 0.8rem 0.5rem 0.8rem;
+                font-size: 12px;
+                margin-bottom: 15px;
+                width: 100%;
+                @media (min-width: $phoneScreenSize) {
+                    padding: 1.5rem 10px 0.5rem 10px;
+                    font-size: 18px;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+}

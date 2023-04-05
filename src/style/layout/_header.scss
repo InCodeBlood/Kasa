@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+    @media (min-width: $phoneScreenSize) {
+        margin-top: 40px;
+    }
+    &__logo {
+        width: 145px;
+        @media (min-width: $phoneScreenSize) {
+            width: 210px;
+        }
+    }
+    &__nav {
+        display: flex;
+        align-items: center;
+        font-weight: 500;
+        font-size: 12px;
+        text-transform: uppercase; 
+        @media (min-width: $phoneScreenSize) {
+            font-size: 24px;
+        } 
+        &__link {
+            margin-left: 10px;
+            color: $colour-primary;
+            @media (min-width: $phoneScreenSize) {
+                margin-left: 57px;
+            } 
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+  }
+  
+  
