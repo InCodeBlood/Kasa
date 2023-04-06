@@ -44,7 +44,7 @@
 ## About The Project
 
 <div align="center">
-    <img src="https://github.com/PabloSgns/Kanap/blob/main/front/images/screenshot_readme.png" alt="Logo" width="900" height="450">
+    <img src="https://github.com/InCodeBlood/Kasa/blob/main/src/assets/screenshot_readme.png" alt="Logo" width="900" height="600">
 </div>
 
 <br/>
