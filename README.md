@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/PabloSgns/Kasa">
-    <img src="https://github.com/InCodeBlood/Kasa/blob/main/src/assets/logo.png" alt="Logo" width="350" height=100">
+    <img src="https://github.com/Pasacod/Kasa/blob/main/src/assets/logo.png" alt="Logo" width="350" height=100">
   </a>
 
 <h3 align="center">Kasa</h3>
@@ -11,7 +11,7 @@
     This project is the n°7 of OpenClassrooms Web Developper course which consists in building an e-commerce website with JavaScript.
     <br />
     <br />
-    <a href="https://github.com/InCodeBlood/Kasa"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Pasacod/Kasa"><strong>Explore the docs »</strong></a>
     <br />
     <br />
   </p>
@@ -44,7 +44,7 @@
 ## About The Project
 
 <div align="center">
-    <img src="https://github.com/InCodeBlood/Kasa/blob/main/src/assets/screenshot_readme.png" alt="Logo" width="900" height="600">
+    <img src="https://github.com/Pasacod/Kasa/blob/main/src/assets/screenshot_readme.png" alt="Logo" width="900" height="600">
 </div>
 
 <br/>
