@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/PabloSgns/Kasa">
+  <a href="https://github.com/Pasacod/Kasa">
     <img src="https://github.com/Pasacod/Kasa/blob/main/src/assets/logo.png" alt="Logo" width="350" height=100">
   </a>
 
@@ -68,7 +68,7 @@ The goal here is to develop the front end of a real estate rental web applicatio
 
 2. Clone the repo
    ```sh
-   git clone https://github.com/PabloSgns/Kasa.git
+   git clone https://github.com/Pasacod/Kasa.git
    ```
    
 3. Go to the "back" folder and install npm
